@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="276.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8.0.202-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerLayer.MainPresenter">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                  prefHeight="275.0" prefWidth="425.0">
+         <children>
+            <Button fx:id="logInButton" layoutX="155.0" layoutY="178.0" mnemonicParsing="false"
+                    onAction="#clickedLogInButton" text="Log In" />
+            <Button fx:id="exitButton" layoutX="220.0" layoutY="178.0" mnemonicParsing="false"
+                    onAction="#clickedExitButton" prefHeight="25.0" prefWidth="50.0" text="Exit" />
+            <TextField fx:id="usernameInput" layoutX="130.0" layoutY="96.0" onAction="#setUsername"
+                       promptText="Username" />
+            <PasswordField fx:id="passwordInput" layoutX="130.0" layoutY="138.0" onAction="#setPassword"
+                       promptText="Password" />
+            <Text layoutX="122.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Manager">
+               <font>
+                  <Font name="Georgia" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

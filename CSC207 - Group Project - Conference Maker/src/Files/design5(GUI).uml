@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GUI</OriginalElement>
+  <nodes>
+    <node x="238.0" y="121.0">GUI.SendMessagesScreen</node>
+    <node x="559.0" y="299.0">GUI.EventView</node>
+    <node x="1116.5" y="0.0">GUI.Interfaces</node>
+    <node x="975.0" y="143.5">GUI.AlertPopUpLargeInput</node>
+    <node x="1451.0" y="132.5">GUI.SpeakerSendMessagesScreen</node>
+    <node x="0.0" y="299.0">GUI.Main</node>
+    <node x="709.0" y="143.5">GUI.ManageEventsScreen</node>
+    <node x="1213.0" y="155.0">GUI.AlertPopUp</node>
+    <node x="2354.0" y="132.5">GUI.ManageEventsView</node>
+    <node x="1715.0" y="155.0">GUI.SentMessageScreen</node>
+    <node x="214.0" y="299.0">GUI.SingleMessageScreen</node>
+    <node x="2034.0" y="132.5">GUI.MessagesScreen</node>
+    <node x="471.0" y="110.0">GUI.CreatingAccountGUI</node>
+    <node x="0.0" y="143.5">GUI.AlertPopUpInput</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GUI.AlertPopUpLargeInput" target="GUI.Interfaces">
+      <point x="0.0" y="-38.5" />
+      <point x="1084.0" y="90.0" />
+      <point x="1194.35" y="90.0" />
+      <point x="-8.650000000000091" y="15.0" />
+    </edge>
+    <edge source="GUI.AlertPopUp" target="GUI.Interfaces">
+      <point x="0.0" y="-27.0" />
+      <point x="1322.0" y="90.0" />
+      <point x="1211.65" y="90.0" />
+      <point x="8.650000000000091" y="15.0" />
+    </edge>
+    <edge source="GUI.SendMessagesScreen" target="GUI.Interfaces">
+      <point x="0.0" y="-61.0" />
+      <point x="344.5" y="60.0" />
+      <point x="1142.45" y="60.0" />
+      <point x="-60.549999999999955" y="15.0" />
+    </edge>
+    <edge source="GUI.SpeakerSendMessagesScreen" target="GUI.Interfaces">
+      <point x="0.0" y="-49.5" />
+      <point x="1573.0" y="80.0" />
+      <point x="1228.95" y="80.0" />
+      <point x="25.950000000000045" y="15.0" />
+    </edge>
+    <edge source="GUI.MessagesScreen" target="GUI.Interfaces">
+      <point x="0.0" y="-49.5" />
+      <point x="2184.0" y="60.0" />
+      <point x="1263.55" y="60.0" />
+      <point x="60.549999999999955" y="15.0" />
+    </edge>
+    <edge source="GUI.ManageEventsScreen" target="GUI.Interfaces">
+      <point x="0.0" y="-38.5" />
+      <point x="832.0" y="80.0" />
+      <point x="1177.05" y="80.0" />
+      <point x="-25.950000000000045" y="15.0" />
+    </edge>
+    <edge source="GUI.ManageEventsView" target="GUI.Interfaces">
+      <point x="0.0" y="-49.5" />
+      <point x="2495.0" y="50.0" />
+      <point x="1280.8500000000001" y="50.0" />
+      <point x="77.85000000000014" y="15.0" />
+    </edge>
+    <edge source="GUI.CreatingAccountGUI" target="GUI.Interfaces">
+      <point x="0.0" y="-72.0" />
+      <point x="580.0" y="70.0" />
+      <point x="1159.75" y="70.0" />
+      <point x="-43.25" y="15.0" />
+    </edge>
+    <edge source="GUI.SentMessageScreen" target="GUI.Interfaces">
+      <point x="0.0" y="-27.0" />
+      <point x="1864.5" y="70.0" />
+      <point x="1246.25" y="70.0" />
+      <point x="43.25" y="15.0" />
+    </edge>
+    <edge source="GUI.AlertPopUpInput" target="GUI.Interfaces">
+      <point x="0.0" y="-38.5" />
+      <point x="109.0" y="50.0" />
+      <point x="1125.15" y="50.0" />
+      <point x="-77.84999999999991" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.35768072289156627" x="1318.0" y="199.0" />
+  <SelectedNodes>
+    <node>GUI.AlertPopUpInput</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

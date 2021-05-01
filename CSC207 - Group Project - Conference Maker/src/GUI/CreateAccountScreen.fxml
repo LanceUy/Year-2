@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0"
+            prefWidth="425.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ControllerLayer.OrganizerMainScreen">
+    <Button alignment="CENTER" layoutX="235.0" layoutY="144.0" mnemonicParsing="false" onAction="#createVIP"
+            prefHeight="81.0" prefWidth="132.0" text="VIP" />
+    <Button alignment="CENTER" layoutX="55.0" layoutY="42.0" mnemonicParsing="false"
+            onAction="#createAttendee" prefHeight="81.0" prefWidth="132.0" text="Attendee" />
+    <Button alignment="CENTER" layoutX="235.0" layoutY="42.0" mnemonicParsing="false" onAction="#createSpeaker"
+            prefHeight="81.0" prefWidth="132.0" text="Speaker" />
+    <Button alignment="CENTER" layoutX="55.0" layoutY="144.0" mnemonicParsing="false" onAction="#createOrganizer"
+            prefHeight="81.0" prefWidth="132.0" text="Organizer" />
+    <Button fx:id="backButton" alignment="CENTER" layoutX="171.0" layoutY="236.0" mnemonicParsing="false"
+            onAction="#backButton" prefWidth="82.0" text="Back" />
+    <Text fx:id="welcomeText" layoutX="142.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0"
+          text="Choose a Type" textAlignment="CENTER">
+        <font>
+            <Font name="Georgia" size="22.0" />
+        </font>
+    </Text>
+</AnchorPane>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ControllerLayer</OriginalElement>
+  <nodes>
+    <node x="2970.0" y="1597.0">ControllerLayer.LoginScreen</node>
+    <node x="1769.0" y="845.0">ControllerLayer.VipSystem</node>
+    <node x="0.0" y="845.0">ControllerLayer.AttendeeSystem</node>
+    <node x="3170.0" y="845.0">ControllerLayer.MainPresenter</node>
+    <node x="1623.0" y="0.0">ControllerLayer.MainScreen</node>
+    <node x="866.0000000000001" y="127.0">ControllerLayer.OrganizerMainScreen</node>
+    <node x="2252.0" y="1597.0">ControllerLayer.LoadAndSaveObjects</node>
+    <node x="2650.0" y="215.0">ControllerLayer.SpeakerMainScreen</node>
+    <node x="706.0" y="1597.0">ControllerLayer.EventsToHtml</node>
+    <node x="2206.0" y="1320.0">ControllerLayer.SpeakerMessageScreen</node>
+    <node x="1161.0" y="1597.0">ControllerLayer.SpeakerSystem</node>
+    <node x="1464.0" y="1320.0">ControllerLayer.AttendeeMessageScreen</node>
+    <node x="1760.0" y="204.0">ControllerLayer.AttendeeMainScreen</node>
+    <node x="1505.0" y="845.0">ControllerLayer.LoginType</node>
+    <node x="0.0" y="1597.0">ControllerLayer.VipMessageScreen</node>
+    <node x="1474.0" y="1597.0">ControllerLayer.loadAndSave</node>
+    <node x="750.0" y="845.0">ControllerLayer.OrganizerSystem</node>
+    <node x="717.0" y="1320.0">ControllerLayer.OrganizerMessageScreen</node>
+    <node x="3202.0" y="1597.0">ControllerLayer.GUIControllers</node>
+    <node x="0.0" y="204.0">ControllerLayer.VipMainScreen</node>
+    <node x="0.0" y="1320.0">ControllerLayer.ReadMessageScreen</node>
+    <node x="2482.0" y="845.0">ControllerLayer.MessageSystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ControllerLayer.AttendeeMainScreen" target="ControllerLayer.MainScreen">
+      <point x="0.0" y="-259.5" />
+      <point x="2195.0" y="107.0" />
+      <point x="1780.5" y="107.0" />
+      <point x="31.5" y="38.5" />
+    </edge>
+    <edge source="ControllerLayer.OrganizerMainScreen" target="ControllerLayer.MainScreen">
+      <point x="0.0" y="-336.5" />
+      <point x="1303.0" y="107.0" />
+      <point x="1717.5" y="107.0" />
+      <point x="-31.5" y="38.5" />
+    </edge>
+    <edge source="ControllerLayer.SpeakerMainScreen" target="ControllerLayer.MainScreen">
+      <point x="0.0" y="-248.5" />
+      <point x="3082.0" y="97.0" />
+      <point x="1843.5" y="97.0" />
+      <point x="94.5" y="38.5" />
+    </edge>
+    <edge source="ControllerLayer.VipMainScreen" target="ControllerLayer.MainScreen">
+      <point x="0.0" y="-259.5" />
+      <point x="423.0" y="97.0" />
+      <point x="1654.5" y="97.0" />
+      <point x="-94.5" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.26881720430107525" x="1757.0" y="903.5" />
+  <SelectedNodes>
+    <node>ControllerLayer.LoginScreen</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,14 @@
+Events
+1,eventOne,9,1,3,false,1,speaker
+1,eventTwo,10,1,2,false,2,speaker,speaker2
+2,eventThree,11,2,10,true,0
+
+Logins
+speaker,speaker,password
+speaker,speaker2,pass
+attendee,attendee,password
+attendee,attendee2,pass
+organizer,organizer,pass
+organizer,organizer2,password
+vip,vip,pass
+

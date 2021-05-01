@@ -1,0 +1,23 @@
+Features implemented in Phase 2:
+Mandatory features:
+	-Many type of events (Can have 0 speaker events as well as >1 speaker events)
+	-Events can be canceled by at least one organizer
+	-One more type of user (VIP user)
+	-Organizer can also create other type of accounts (Speaker, Attendee, Organizer, and VIP)
+	-Event has a max number of people (capacity for the event)
+Additional extensions:
+	-Graphic User Interface (GUI)
+	-All users are allowed to see the messages they’ve sent, "mark as unread", delete, or archive messages after 	reading them.
+	-Allow users to save the conference schedule as an HTML file
+	-Will include details about every event in the conference
+Design patterns used
+-Factory:
+	-We used the factory design pattern when implementing the types of people and the GUI
+	-We had a superclass Person and its subclasses Speaker, Attendee, Organizer and Vip 
+	-Based on which Person is being created, the respective subclass will be returned
+	-In the GUI, depending on which type of Person the user logs in as, their respective main screens 			(subclasses) will be returned as well
+ 
+Dependency Injection:
+	-Needed Presenter to access UI which breaks Clean Architecture
+	-Interfaces were implemented for the GUI in order to make the class independent of its dependencies
+	-Allows access to the UI
